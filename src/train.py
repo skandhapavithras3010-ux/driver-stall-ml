@@ -71,3 +71,10 @@ joblib.dump(
 )
 
 print("\nModel saved to models/xgb_model.pkl")
+
+importance = pd.DataFrame({
+    "feature": X.columns,
+    "importance": model.feature_importances_
+}).sort_values("importance", ascending=False)
+
+print(importance.head(10))
