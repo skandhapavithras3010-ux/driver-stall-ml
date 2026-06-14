@@ -78,3 +78,8 @@ importance = pd.DataFrame({
 }).sort_values("importance", ascending=False)
 
 print(importance.head(10))
+
+importance.to_csv(
+    "models/feature_importance.csv",
+    index=False
+)

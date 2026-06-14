@@ -1,0 +1,16 @@
+feature,importance
+rpm_rate,0.3038853
+incline_deg,0.20236343
+brake_x_clutch,0.1491251
+brake_flag,0.096259154
+rpm,0.09234631
+clutch_pct,0.057767075
+rpm_rolling_mean_5,0.043998126
+rpm_x_clutch,0.018450124
+clutch_variance,0.009076518
+embedded_risk_score,0.009044042
+rpm_rolling_std_5,0.005594289
+speed_deficit,0.005046423
+speed_kmh,0.004497831
+throttle_pct,0.0017608292
+brake_toggles,0.0007854623
